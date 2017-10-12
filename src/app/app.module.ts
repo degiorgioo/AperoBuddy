@@ -2,15 +2,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import {LoggerService} from './logger.service';
+import {CrawlerService} from './crawler.service';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [LoggerService, CrawlerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
