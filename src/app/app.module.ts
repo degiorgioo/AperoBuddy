@@ -2,8 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import {LoggerService} from './logger.service';
-import {CrawlerService} from './crawler.service';
 
 @NgModule({
   declarations: [
@@ -12,7 +10,7 @@ import {CrawlerService} from './crawler.service';
   imports: [
     BrowserModule
   ],
-  providers: [LoggerService, CrawlerService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
