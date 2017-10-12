@@ -17,9 +17,17 @@ export class AppComponent {
   }
 
   click() {
-    new Crawler().crawl('http://www.google.ch', function onSuccess(page) {
-      console.log(page.url);
+    new Crawler().crawl({
+      url: 'https://github.com',
+      success: function(page) {
+        console.log(page.url);
+      },
+      failure: function(page) {
+        console.log(page.status);
+      },
+      finished: function(crawledUrls) {
+        console.log(crawledUrls);
+      }
     });
   }
-
 }
