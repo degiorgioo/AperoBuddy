@@ -1,3 +1,9 @@
-h1{
-  background: blue;
+.resultbox{
+  width: 500px;
+  background: lightblue;
+  height: auto;
+}
+
+.text_input {
+  width: 400px;
 }
