@@ -1,4 +1,5 @@
-import {Component} from '@angular/core';
+import {Component, Input} from '@angular/core';
+import {RequestService} from './request.service';
 
 @Component({
   selector: 'app-root',
@@ -8,15 +9,30 @@ import {Component} from '@angular/core';
 
 export class AppComponent {
   title = 'AlphabetDrinks';
+  beverages = [];
+  api_url = 'http://localhost:9000/namics/beverages';
+  @Input() character: string;
 
-  constructor() {
+  constructor(private requestHandler: RequestService) {
   }
 
-  search() {
+  search(character) {
+    this.requestHandler.get(this.api_url, (data) => {
+      this.beverages = this.filterByCharacter(character, data);
+    });
+
   }
 
   add() {
 
+  }
+
+  filterByCharacter(character, list) {
+    return list.filter(beverage => {
+      if (beverage.name.toLowerCase().startsWith(character)) {
+        return beverage.name;
+      }
+    });
   }
 
 }

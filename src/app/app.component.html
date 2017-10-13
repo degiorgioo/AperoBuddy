@@ -4,10 +4,10 @@
     {{title}}
   </h1>
   </div>
-<input class="text_input" type="text" placeholder="Bitte gib einen Buchstaben ein: " >
-<button id="search_button" type="button" (click)="search()">Suche</button>
+<input class="text_input" type="text" #characterInput placeholder="Bitte gib einen Buchstaben ein: " >
+<button id="search_button" type="button" (click)="search(characterInput.value)">Suche</button>
 
 <input class="text_input" type="text" placeholder="Bitte gib ein Getränk ein: " >
 <button id="add_button" type="button" (click)="add()">Hinzufügen</button>
 
-<div class="resultbox"></div>
+<p *ngFor="let b of beverages" class="resultbox">{{b.name}}</p>
