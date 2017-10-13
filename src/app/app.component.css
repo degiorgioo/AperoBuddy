@@ -1,9 +1,65 @@
-.resultbox{
-  width: 500px;
-  background: lightblue;
-  height: auto;
+.text_input {
+  flex-grow: 10;
+  border: 2px solid #d21e1e;
+  border-top-color: #a71919;
+  border-left-color: #a71919;
+  margin-right: 3px;
 }
 
-.text_input {
-  width: 400px;
+.input_container {
+  margin-top: 15px;
+  display: flex;
+  margin-left: 5px;
+  margin-right: 5px;
 }
+
+h1 {
+  font-family: AlphabeticFont;
+  font-size: 300%;
+  background: white;
+  margin-top: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background: -webkit-linear-gradient(#ff2222, rgba(0, 0, 0, 0.99));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  color: rgba(231, 238, 255, 0.98);
+  border-radius: 5px;
+  background: linear-gradient(15deg, #9b1818, #eb1e1e);
+  border-bottom-color: #d32828;
+  border-right-color: #d32828;
+  border-top-color: #6a1919;
+  border-left-color: #6a1919;
+  flex-grow: 1;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.resultbox {
+  margin: 8px;
+}
+
+.getränk {
+  font-family: AlphabeticFontRegular;
+  text-align: center;
+  padding: 2px;
+  background: linear-gradient(45deg, #f8ea88, #ca761a);
+  border: 2px solid #7a2100;
+  border-radius: 8px;
+  margin-top: 7px;
+}
+
+.getränk:hover {
+  background: lightblue;
+}
+
+
