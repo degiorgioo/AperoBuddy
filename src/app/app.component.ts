@@ -11,7 +11,7 @@ import * as Crawler from 'js-crawler';
 })
 
 export class AppComponent {
-  title = 'AlphabetDrinks';
+  title = 'AlphabeticDrinks';
 
   constructor(private logger: LoggerService, private crawler: CrawlerService) {
   }
