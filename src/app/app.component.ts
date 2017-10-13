@@ -1,8 +1,5 @@
-import {Component} from '@angular/core';
-import {LoggerService} from './logger.service';
-import {CrawlerService} from './crawler.service';
-
-import * as Crawler from 'js-crawler';
+import {Component, Input} from '@angular/core';
+import {RequestService} from './request.service';
 
 @Component({
   selector: 'app-root',
@@ -11,23 +8,31 @@ import * as Crawler from 'js-crawler';
 })
 
 export class AppComponent {
-  title = 'AlphabeticDrinks';
+  title = 'AlphabetDrinks';
+  beverages = [];
+  api_url = 'http://localhost:9000/namics/beverages';
+  @Input() character: string;
 
-  constructor(private logger: LoggerService, private crawler: CrawlerService) {
+  constructor(private requestHandler: RequestService) {
   }
 
-  click() {
-    new Crawler().crawl({
-      url: 'https://github.com',
-      success: function(page) {
-        console.log(page.url);
-      },
-      failure: function(page) {
-        console.log(page.status);
-      },
-      finished: function(crawledUrls) {
-        console.log(crawledUrls);
+  search(character) {
+    this.requestHandler.get(this.api_url, (data) => {
+      this.beverages = this.filterByCharacter(character, data);
+    });
+
+  }
+
+  add() {
+
+  }
+
+  filterByCharacter(character, list) {
+    return list.filter(beverage => {
+      if (beverage.name.toLowerCase().startsWith(character)) {
+        return beverage.name;
       }
     });
   }
+
 }
