@@ -1,0 +1,271 @@
+vor list = [
+	{
+		name: "Appenzeller",
+		alcohol: "yes"
+	},
+	{
+		name: "Augustiner",
+		alcohol: "yes"
+	},
+	{
+		name: "Blue Moon",
+		alcohol: "yes"
+	},
+	{
+		name: "Bittburger",
+		alcohol: "yes"
+	},
+	{
+		name: "Bredog",
+		alcohol: "yes"
+	},
+	{
+		name: "Carling",
+		alcohol: "yes"
+	},
+	{
+		name: "Chang",
+		alcohol: "yes"
+	},
+	{
+		name: "Desperados",
+		alcohol: "yes"
+	},
+	{
+		name: "Eichhof Bier",
+		alcohol: "yes"
+	},
+	{
+		name: "Feldschlösschen",
+		alcohol: "yes"
+	},
+	{
+		name: "Heineken",
+		alcohol: "yes"
+	},
+	{
+		name: "Jever",
+		alcohol: "yes"
+	},
+	{
+		name: "La Chouffe",
+		alcohol: "yes"
+	},
+	{
+		name: "Leffe",
+		alcohol: "yes"
+	},
+	{
+		name: "Miller",
+		alcohol: "yes"
+	},
+	{
+		name: "Molson",
+		alcohol: "yes"
+	},
+	{
+		name: "Peroni",
+		alcohol: "yes"
+	},
+	{
+		name: "Radenberger",
+		alcohol: "yes"
+	},
+	{
+		name: "Rothaus",
+		alcohol: "yes"
+	},
+	{
+		name: "Singha",
+		alcohol: "yes"
+	},
+	{
+		name: "Tucher",
+		alcohol: "yes"
+	},
+	{
+		name: "Viru",
+		alcohol: "yes"
+	},
+	{
+		name: "Grappa",
+		alcohol: "yes"
+	},
+	{
+		name: "Martini",
+		alcohol: "yes"
+	},
+	{
+		name: "Partisan",
+		alcohol: "yes"
+	},
+	{
+		name: "Rum",
+		alcohol: "yes"
+	},
+	{
+		name: "Gin",
+		alcohol: "yes"
+	},
+	{
+		name: "Whisky",
+		alcohol: "yes"
+	},
+	{
+		name: "Likör",
+		alcohol: "yes"
+	},
+	{
+		name: "Bacardi",
+		alcohol: "yes"
+	},
+	{
+		name: "Bailey's",
+		alcohol: "yes"
+	},
+	{
+		name: "Ballantine's",
+		alcohol: "yes"
+	},
+	{
+		name: "Captain Morgan",
+		alcohol: "yes"
+	},
+	{
+		name: "Cromwells",
+		alcohol: "yes"
+	},
+	{
+		name: "Cynar",
+		alcohol: "yes"
+	},
+	{
+		name: "Glühwein",
+		alcohol: "yes"
+	},
+	{
+		name: "Herdöpfeler",
+		alcohol: "yes"
+	},
+	{
+		name: "Jägermeister",
+		alcohol: "yes"
+	},
+	{
+		name: "Kirsch",
+		alcohol: "yes"
+	},
+	{
+		name: "Kleiner Feigling",
+		alcohol: "yes"
+	},
+	{
+		name: "Küssnachter Quellwasser",
+		alcohol: "yes"
+	},
+	{
+		name: "Limoncello",
+		alcohol: "yes"
+	},
+	{
+		name: "Malibu",
+		alcohol: "yes"
+	},
+	{
+		name: "Mamajuana",
+		alcohol: "yes"
+	},
+	{
+		name: "Schatzi",
+		alcohol: "yes"
+	},
+	{
+		name: "Sauser",
+		alcohol: "yes"
+	},
+	{
+		name: "Tequila",
+		alcohol: "yes"
+	},
+	{
+		name: "Williams",
+		alcohol: "yes"
+	},
+	{
+		name: "Afri Cola",
+		alcohol: "no"
+	},
+	{
+		name: "Älska Cider",
+		alcohol: "no"
+	},
+	{
+		name: "Bluna",
+		alcohol: "no"
+	},
+	{
+		name: "Bulmers",
+		alcohol: "no"
+	},
+	{
+		name: "Coca Cola",
+		alcohol: "no"
+	},
+	{
+		name: "Elmer Citro",
+		alcohol: "no"
+	},
+	{
+		name: "Fanto",
+		alcohol: "no"
+	},
+	{
+		name: "Fever Tree",
+		alcohol: "no"
+	},
+	{
+		name: "Fentimans",
+		alcohol: "no"
+	},
+	{
+		name: "Orangensaft",
+		alcohol: "no"
+	},
+	{
+		name: "Eistee",
+		alcohol: "no"
+	},
+	{
+		name: "Schorle",
+		alcohol: "no"
+	},
+	{
+		name: "Pepita",
+		alcohol: "no"
+	},
+	{
+		name: "Pepita",
+		alcohol: "no"
+	},
+	{
+		name: "Rivella",
+		alcohol: "no"
+	},
+	{
+		name: "Apfelsaft",
+		alcohol: "no"
+	},
+	{
+		name: "Snapple",
+		alcohol: "no"
+	},
+	{
+		name: "Sprite",
+		alcohol: "no"
+	},
+	{
+		name: "Red Bull",
+		alcohol: "no"
+	},
+
+]
