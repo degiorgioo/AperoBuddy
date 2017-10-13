@@ -5,12 +5,13 @@
   </h1>
   </div>
 <div class="input_container">
-  <button id="search_button" type="button" (click)="search(characterInput.value)">Suche</button>
-
+  <input class="text_input" type="text" #characterInput placeholder="Bitte gib einen Buchstaben ein: " >
+  <button class="button" type="button" (click)="search(characterInput.value)">Suche</button>
+</div>
+<div class="input_container">
   <input class="text_input" type="text" placeholder="Bitte gib ein Getränk ein: " >
-  <button id="add_button" type="button" (click)="add()">Hinzufügen</button>
-
-  <div *ngFor="let b of beverages" class="resultbox">
-    <p class="getränk">{{b.name}}</p>
-  </div>
+  <button class="button" type="button" (click)="add()">Hinzufügen</button>
+</div>
+<div *ngFor="let b of beverages" class="resultbox">
+  <p class="getränk">{{b.name}}</p>
 </div>
