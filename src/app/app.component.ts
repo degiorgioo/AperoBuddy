@@ -8,7 +8,7 @@ import {RequestService} from './request.service';
 })
 
 export class AppComponent {
-  title = 'AlphabetDrinks';
+  title = 'AperoBuddy';
   beverages = [];
   api_url = 'http://localhost:9000/namics/beverages';
   @Input() character: string;
